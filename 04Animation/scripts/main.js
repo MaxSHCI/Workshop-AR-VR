@@ -1,4 +1,4 @@
-var rotationSpeed = 1.00
+var rotationSpeed = 2.00
 var myOtherBox = document.getElementById('myOtherBox');
 
 function bounce(){
