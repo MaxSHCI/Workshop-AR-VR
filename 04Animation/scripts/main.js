@@ -1,9 +1,9 @@
-var rotationSpeed = 2.00
+var rotationSpeed = 2.0;
 var myOtherBox = document.getElementById('myOtherBox');
 
-function bounce(){
-myOtherBox.object3D.position.y += rotationSpeed;
-console.log(myOtherBox.object3D.position.x);
-}
+function spin(){
+myOtherBox.object3D.rotation.x += rotationSpeed;
+console.log(myOtherBox.object3D.rotation.x);
+ }
 
-setInterval(spin, 16); //equivalent to 60 fps
+setInterval(spin, 32); //equivalent to 60 fps
